@@ -1,3 +1,3 @@
-FROM nginx
+FROM nginx:stable-alpine
 COPY nginx.config /etc/nginx/conf.d/default.conf
-EXPOSE 8080
+EXPOSE 80
